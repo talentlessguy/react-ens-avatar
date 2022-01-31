@@ -5,13 +5,10 @@ specifiers:
   '@vanilla-extract/css': ^1.6.8
   '@vanilla-extract/esbuild-plugin': ^2.0.2
   autoprefixer: ^10.4.2
-  clsx: ^1.1.1
   esbuild: ^0.14.14
   postcss: ^8.4.5
   react: ^17.0.2
-
-dependencies:
-  clsx: 1.1.1
+  typescript: ^4.5.5
 
 devDependencies:
   '@types/react': 17.0.38
@@ -21,6 +18,7 @@ devDependencies:
   esbuild: 0.14.14
   postcss: 8.4.5
   react: 17.0.2
+  typescript: 4.5.5
 
 packages:
 
@@ -128,11 +126,6 @@ packages:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
     dev: true
-
-  /clsx/1.1.1:
-    resolution: {integrity: sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==}
-    engines: {node: '>=6'}
-    dev: false
 
   /color-convert/2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
@@ -490,6 +483,12 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       has-flag: 4.0.0
+    dev: true
+
+  /typescript/4.5.5:
+    resolution: {integrity: sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: true
 
   /yocto-queue/0.1.0:

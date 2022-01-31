@@ -1,6 +1,6 @@
 {
   "name": "react-ens-avatar",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "React component for ENS avatar image display with emoji as fallback ",
   "type": "module",
   "types": "./dist/index.d.ts",

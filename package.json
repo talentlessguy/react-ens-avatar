@@ -4,7 +4,7 @@
   "description": "React component for ENS avatar image display with emoji as fallback ",
   "type": "module",
   "types": "./dist/index.d.ts",
-  "exports": "./dist/index.ts",
+  "exports": "./dist/index.js",
   "scripts": {
     "build": "node build.js",
     "postbuild": "tsc --emitDeclarationOnly"

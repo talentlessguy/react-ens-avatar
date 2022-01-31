@@ -41,5 +41,16 @@
   ],
   "engines": {
     "node": ">=14"
-  }
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/talentlessguy/react-ens-avatar/master/LICENSE"
+    },
+    {
+      "type": "GPLv3",
+      "url": "https://raw.githubusercontent.com/talentlessguy/react-ens-avatar/master/LICENSE_RAINBOW"
+    }
+  ]
 }
